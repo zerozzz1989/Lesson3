@@ -1,15 +1,14 @@
+//OK
 public class Task3 {
     public static void main(String[] args) {
-        int a = 4;
-        int b = 33;
-        boolean c = a > b;
-        System.out.println(c);
+        String a = "The";                           //дано
+        String b = "End" ;                          //дано
+        if (a == "The") {                           //якщо а = фразі
+            System.out.println(a + " " + b);        //
+        } else {                                    //або
+            System.out.println(b + " " + a);        //
 
-
-
-       // System.out.println(a+" "+b);                        //вывод
-       // System.out.println(b+" "+a);                        //вывод
-
+        }
     }
 }
 
