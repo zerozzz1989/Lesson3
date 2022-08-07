@@ -3,19 +3,14 @@ import java.util.Scanner;
 public class Task1 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);// считывает вводимые данные
-       // Scanner myArray = sc;
+        Scanner sc = new Scanner(System.in);                //Вводимо данні
         System.out.println("Please write input String and press Enter:");
-       // int first = sc[1]; // выбор первого элемена масива
-            String str = sc.nextLine();                         // nextLine()автоматически перемещает сканер вниз после возврата к текущей строке.
+        String str = sc.nextLine();                         // nextLine()автоматически перемещает сканер вниз после возврата к текущей строке.
+        String a = str.substring(0, 2);                     //перше число з якого виводимо, друге по яке.
 
-                System.out.printf("%.2s%n", str);    // выводит 2 символа
-            //    if (new Scanner(System.in))
-        {
-            System.out.printf("Дважды два равно пяти");
-        }
-
-        sc.close();                                                                 // закрыл Scanner методом close()
+        //boolean m = (a > 1);
+       // if(m)
+        System.out.printf(a);    
 
             }
 
