@@ -1,4 +1,5 @@
-public class task7 {
+//OK
+public class Task7 {
     public static void main(String[] args) {
         String people = "Den; John; Will; Kate; Adam; Robin"; //строка с данными
 
@@ -6,9 +7,16 @@ public class task7 {
         for (String human : peopleArray) {                    //цикл повторяет масив
             System.out.println(human);                        //вывод
         }
-    /*
-    Вывод:
-    Den, John, Will, Kate, Adam, Robin
-     */
+
     }
 }
+
+/*
+Given a string "Den, John, Will, Kate, Adam, Robin". Print all the names from the following string each from a new line.
+   Example:
+   Den
+   John
+   Will
+   Kate
+   ...
+ */
