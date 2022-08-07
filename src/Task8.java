@@ -13,8 +13,6 @@ public class Task8 {
 
 
 
-//index
-
 /*
 Given credit card's number 1234 5678 9012 3456. Print card's number in the next view **** **** **** 3456
  */

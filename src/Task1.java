@@ -1,3 +1,4 @@
+//нарешті
 import java.util.Scanner;
 
 public class Task1 {
@@ -6,16 +7,19 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);                //Вводимо данні
         System.out.println("Please write input String and press Enter:");
         String str = sc.nextLine();                         // nextLine()автоматически перемещает сканер вниз после возврата к текущей строке.
-        String a = str.substring(0, 2);                     //перше число з якого виводимо, друге по яке.
+        int m = str.length();                               // переганяємо стрінг сканер в інт
+        int n = 1;                                          // даємо число діапазона
 
-        //boolean m = (a > 1);
-       // if(m)
-        System.out.printf(a);    
+        if (m <= n) {                                       // вводимо сканер <= заданий діапазон
 
-            }
+            System.out.printf(str);
 
+        } else {
+            System.out.printf(str.substring(0, 2));
         }
 
+    }
+}
 
 /*
 Given a string. Write a code that will create a new string made of the first two characters of the initial string.
