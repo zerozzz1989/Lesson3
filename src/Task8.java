@@ -1,4 +1,4 @@
-/OK
+//OK
 public class Task8 {
     public static void main(String[] args) {
         String testString = "1234 5678 9012 3456";
