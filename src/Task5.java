@@ -2,6 +2,15 @@
 
 public class Task5 {
     public static void main(String[] args) {
+
+            String join = String.join("+", "hop","hello","hop");
+
+            System.out.println(join);
+        }
+    }
+
+
+        /*
         String a = "hop";
         String b = "hello";
         String c = a+" "+b+" "+a;
