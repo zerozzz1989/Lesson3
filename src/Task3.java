@@ -1,18 +1,18 @@
 //OK
 public class Task3 {
     public static void main(String[] args) {
-        String a = "The";                           //дано
-        String b = "End" ;                          //дано
-        if (a == "The") {                           //якщо а = фразі
-            System.out.println(a + " " + b);        //
-        } else {                                    //або
-            System.out.println(b + " " + a);        //
-
-        }
+        String a = "The End";                           //дано
+        String b = "End The";                          //дано
+        System.out.println("Check if they start with \"The\"");
+        System.out.println("word1 = \"The End\""+ " = "+ a.startsWith("The"));
+        System.out.println("word2 = \"End The\""+ " = "+ b.startsWith("The"));
     }
 }
 
 
+/*
+startswith
+ */
 /*
 Given two strings. Check if they start with "The".
 
